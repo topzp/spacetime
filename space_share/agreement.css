@@ -1,0 +1,9 @@
+@font-face {
+    font-family:PingFang-Medium ;
+    src: url("PingFang-Medium.ttf");
+}
+.title {font-size: 2.5rem;font-family:PingFang-Medium;font-weight: bold;color: #232426;
+    margin-top: 2rem;text-align: center;}
+.content{width: 92%;margin: 0 auto;font-size: 2rem;margin-bottom: 1rem}
+.content p{font-size: 1.25rem;margin-top: 1rem}
+.content .con_title{font-size: 1.5rem;font-weight: bold;}

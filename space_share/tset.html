@@ -1,0 +1,61 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>点击查看全文</title>
+    <style>
+        .thread_article{position: relative;overflow: hidden;}
+        #gradient{width: 100%;height:50px;position: absolute;bottom: 0;left: 0;background: -moz-linear-gradient(bottom,rgba(255,255,255,.1),rgba(255,255,255,0));background: -webkit-gradient(linear,0 top,0 bottom,from(rgba(255,255,255,0)),to(#fff));background: -o-linear-gradient(bottom,rgba(255,255,255,.1),rgba(255,255,255,0));}
+        #read-more{padding: 5px;background: #fff;color: #333;}
+        #read-more a{padding-right: 22px;text-decoration: none;color:#0f88eb;}
+        #read-more a:hover{color: #000;}
+        .text-center{text-align:center;}
+    </style>
+</head>
+<body>
+<div class="thread_article">
+    <p>区块链方兴未艾，正得到政府与市场、政策与资金等支持，也被一些业内人士称作是新风口，但很多观点也趋于一致：在其尚处发展早期的当前阶段，一方面需以开放态度、发展眼光对待；一方面也需要警惕资本市场炒作。</p>
+    <p>“区块链确实在一些方面超越了以前的信息通信技术，以往互联网优势在于高效传输信息，而信息是可以复制粘贴、同时向多点传播的。但正如一笔钱一次只能转给一个人，金钱这样的‘价值’显然只能单向、单点传输，因此传统的互联网并不擅长传输价值。”工信部信息中心工业经济研究所所长于佳宁说。</p>
+    <p>区块链方兴未艾，正得到政府与市场、政策与资金等支持，也被一些业内人士称作是新风口，但很多观点也趋于一致：在其尚处发展早期的当前阶段，一方面需以开放态度、发展眼光对待；一方面也需要警惕资本市场炒作。</p>
+    <p>“区块链确实在一些方面超越了以前的信息通信技术，以往互联网优势在于高效传输信息，而信息是可以复制粘贴、同时向多点传播的。但正如一笔钱一次只能转给一个人，金钱这样的‘价值’显然只能单向、单点传输，因此传统的互联网并不擅长传输价值。”工信部信息中心工业经济研究所所长于佳宁说。</p>
+    <p>区块链方兴未艾，正得到政府与市场、政策与资金等支持，也被一些业内人士称作是新风口，但很多观点也趋于一致：在其尚处发展早期的当前阶段，一方面需以开放态度、发展眼光对待；一方面也需要警惕资本市场炒作。</p>
+    <p>“区块链确实在一些方面超越了以前的信息通信技术，以往互联网优势在于高效传输信息，而信息是可以复制粘贴、同时向多点传播的。但正如一笔钱一次只能转给一个人，金钱这样的‘价值’显然只能单向、单点传输，因此传统的互联网并不擅长传输价值。”工信部信息中心工业经济研究所所长于佳宁说。</p>
+    <p>区块链方兴未艾，正得到政府与市场、政策与资金等支持，也被一些业内人士称作是新风口，但很多观点也趋于一致：在其尚处发展早期的当前阶段，一方面需以开放态度、发展眼光对待；一方面也需要警惕资本市场炒作。</p>
+    <p>“区块链确实在一些方面超越了以前的信息通信技术，以往互联网优势在于高效传输信息，而信息是可以复制粘贴、同时向多点传播的。但正如一笔钱一次只能转给一个人，金钱这样的‘价值’显然只能单向、单点传输，因此传统的互联网并不擅长传输价值。”工信部信息中心工业经济研究所所长于佳宁说。</p>
+    <p>区块链方兴未艾，正得到政府与市场、政策与资金等支持，也被一些业内人士称作是新风口，但很多观点也趋于一致：在其尚处发展早期的当前阶段，一方面需以开放态度、发展眼光对待；一方面也需要警惕资本市场炒作。</p>
+    <p>“区块链确实在一些方面超越了以前的信息通信技术，以往互联网优势在于高效传输信息，而信息是可以复制粘贴、同时向多点传播的。但正如一笔钱一次只能转给一个人，金钱这样的‘价值’显然只能单向、单点传输，因此传统的互联网并不擅长传输价值。”工信部信息中心工业经济研究所所长于佳宁说。</p>
+    <div id="gradient"></div>
+</div>
+<div id="read-more" class="text-center"></div>
+
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var slideHeight = 200; // px
+        var defHeight = $('.thread_article').height();
+        if(defHeight >= slideHeight){
+            $('.thread_article').css('height' , slideHeight + 'px');
+            $('#read-more').append('<a href="#">查看全文 <i class="fa fa-angle-down"></i></a>');
+            $('#read-more a').click(function(){
+                var curHeight = $('.thread_article').height();
+                if(curHeight == slideHeight){
+                    $('.thread_article').animate({
+                        height: defHeight
+                    }, "normal");
+                    $('#read-more a').html('收起 <i class="fa fa-angle-up"></i>');
+                    $('#gradient').fadeOut();
+                }else{
+                    $('.thread_article').animate({
+                        height: slideHeight
+                    }, "normal");
+                    $('#read-more a').html('查看全文 <i class="fa fa-angle-down"></i>');
+                    $('#gradient').fadeIn();
+                }
+                return false;
+            });
+        }
+    });
+</script>
+
+</body>
+</html>

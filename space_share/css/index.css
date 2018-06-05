@@ -1,0 +1,118 @@
+/*@font-face {*/
+    /*font-family: PingFang-SC-Bold;*/
+    /*src: url("../font/PingFang Bold.ttf");*/
+/*}*/
+@font-face {
+    font-family:PingFang-Medium ;
+    src: url("../font/PingFang-Medium.ttf");
+}
+#app{
+    width: 92%;
+    margin: 0 auto;
+}
+.title {
+    font-size: 2.5rem;
+    font-family: PingFang-Medium;
+    font-weight: bold;
+    color: #232426;
+    margin-top: 2.25rem;
+}
+.data{
+    position: relative;
+    margin-top: 2rem;
+}
+.data img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    vertical-align: middle;
+    max-width: 100%;
+}
+.data div{
+    font-family: PingFang-Medium;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.name{
+    position: absolute;
+    margin-top: -2.15rem;
+    margin-left: 3.25rem;
+    color: #333333;
+}
+.time{
+    margin-top: 0.35rem;
+    color: #bfbfbf;
+}
+#content{
+    position: relative;
+    padding-bottom: 2.15rem;
+}
+#content p{
+    margin-top: 2.15rem;
+    font-size: 1.75rem;
+    color: #666666;
+}
+#content img{
+    margin-top: 2rem;
+}
+.news{
+    width: 100%;
+    height: 100%;
+    background-color: #f3f6fb;
+}
+#news_404{
+    width: 100%;
+    margin-top: 15rem;
+}
+#news_404 p{
+    /*font-weight: bold;*/
+    font-size: 2rem;
+    color: #333333;
+    text-align: center;
+}
+#news_404 button{
+    font-size: 1.75rem;
+    color: #ffffff;
+    margin: 0 auto;
+    display: block;
+    margin-top: 3rem;
+    width: 10rem;
+    height: 3.5rem;
+    background-color:#6b92f1;
+    border: 0;
+    border-radius: 1.875rem;
+    line-height: 3.5rem;
+}
+/*点击加载全文*/
+/*.thread_article{*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+/*}*/
+/*#gradient{*/
+    /*width: 100%;*/
+    /*height:3.125rem;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*background: -moz-linear-gradient(bottom,rgba(255,255,255,.1),rgba(255,255,255,0));*/
+    /*background: -webkit-gradient(linear,0 top,0 bottom,from(rgba(255,255,255,0)),to(#fff));*/
+    /*background: -o-linear-gradient(bottom,rgba(255,255,255,.1),rgba(255,255,255,0));*/
+/*}*/
+/*#read-more{*/
+    /*padding: 0.3125rem;*/
+    /*background: #fff;*/
+    /*color: #333;*/
+/*}*/
+/*#read-more a{*/
+    /*font-size: 2rem;*/
+    /*text-decoration: none;*/
+    /*color:#4d87ea;*/
+    /*text-align: center;*/
+/*}*/
+/*#read-more a:hover{*/
+    /*color: #000;*/
+/*}*/
+/*.text-center{*/
+    /*text-align:center;*/
+/*}*/
+/*点击加载全文end*/
