@@ -22,7 +22,7 @@ body{font-family: "PingFang-Medium";}
 .tishi .box{width: 50%;height: 405px;background-color: #ffffff;border-radius: 24px;position: relative;
     margin-left: 25%;margin-top: 15%}
 .tishi p{color: #666666;padding-top: 42px;padding-left: 36px;padding-right: 36px}
-.tishi .con{color: #3574fa;text-align: center;padding-top: 10px}
+.tishi .con{color: #3574fa;text-align: center;padding-top: 10px;border-top: solid 1px #dddddd;}
 @media (max-width: 1024px) {
     .tishi{font-size: 3.5rem}  .tishi .box{width: 80%; margin-left: 10%;margin-top:50%}
     .tishi .con{padding-top: 50px}  }
