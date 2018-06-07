@@ -42,7 +42,7 @@ body{font-family: "PingFang-Medium";}
 }
 
 /*中奖名单*/
-.list_nav{width: 92%;margin-left: 4%;border-bottom: solid 0.3125rem #d8d8d8;padding-bottom: 5px}
+.list_nav{width: 92%;margin-left: 4%;border-bottom: solid 1px #d8d8d8;padding-bottom: 5px}
 .list_nav .list_img{width: 4rem;height: 5.7rem;margin-left: 2rem}
 .list_nav .title{position: absolute;margin-left: 6.5rem;margin-top: -4.5rem}
 .list_nav .text{font-size: 2rem;font-weight: 700;}
