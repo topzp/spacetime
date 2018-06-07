@@ -29,6 +29,8 @@ body{font-family: "PingFang-Medium";}
 @media (max-width: 767px) {
     .tishi{font-size: 1.5rem;}  .tishi .box{height:185px;width: 80%; margin-left: 10%;margin-top:60%}
     .tishi p{padding-top: 30px;padding-left: 16px;padding-right: 16px}  .tishi .con{padding-top: 10px}  }
+@media (max-width: 414px) { .tishi .con{padding-top: 20px}}
+@media (max-width: 375px) { .tishi .con{padding-top: 10px}}
 
 /*活动规则*/
 .Rule{color: #666666;}
