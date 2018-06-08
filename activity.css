@@ -43,10 +43,10 @@ body{font-family: "PingFang-Medium";}
 
 /*中奖名单*/
 .list_nav{width: 92%;margin-left: 4%;border-bottom: solid 1px #d8d8d8;padding-bottom: 5px}
-.list_nav .list_img{width: 4rem;height: 5.7rem;margin-left: 2rem}
-.list_nav .title{position: absolute;margin-left: 6.5rem;margin-top: -4.5rem}
+.list_nav .list_img{width: 4rem;height: 5.7rem;}
+.list_nav .title{position: absolute;margin-left:5rem;margin-top: -4.5rem}
 .list_nav .text{font-size: 2rem;font-weight: 700;}
-.list_nav .time{color: #999999;font-size: 1rem}
+.list_nav .time{color: #999999;font-size: 1.5rem}
 .list{margin-top: 2rem}
 #assets_nav li{float: left;font-size: 2rem;width: 50%;text-align: center}
 #assets_nav .active {border-bottom: solid 2px #3574fa;color: #3574fa;}
@@ -54,4 +54,4 @@ body{font-family: "PingFang-Medium";}
 #assets_content th{font-size: 1.25rem;background-color: #f8f8f8;line-height: 3rem;color: #999999;}
 #assets_content th,#assets_content td{width: 33%;text-align: center;}
 #assets_content td{font-size: 1.5rem;line-height: 4.5rem;border-bottom: solid 1px #d8d8d8;}
-.kefu{width: 94%;margin-left: 3%;margin-top: 3%;color: #666666;font-size: 1.25rem}
+.kefu{width: 94%;margin-left: 3%;margin-top: 3%;color: #666666;font-size: 1.25rem;margin-bottom: 3%;}
