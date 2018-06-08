@@ -46,9 +46,9 @@ body{font-family: "PingFang-Medium";}
 .list_nav .list_img{width: 4rem;height: 5.7rem;}
 .list_nav .title{position: absolute;margin-left:5rem;margin-top: -4.5rem}
 .list_nav .text{font-size: 2rem;font-weight: 700;}
-.list_nav .time{color: #999999;font-size: 1.5rem}
+.list_nav .time{color: #999999;font-size: 1.25rem}
 .list{margin-top: 2rem}
-#assets_nav li{float: left;font-size: 1.5rem;width: 50%;text-align: center}
+#assets_nav li{float: left;font-size: 1.75rem;width: 50%;text-align: center}
 #assets_nav .active {border-bottom: solid 2px #3574fa;color: #3574fa;}
 #assets_content table{width: 100%}
 #assets_content th{font-size: 1.25rem;background-color: #f8f8f8;line-height: 3rem;color: #999999;}
