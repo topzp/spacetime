@@ -7,20 +7,11 @@ function tab(date1,date2){
     var oDate1 = new Date(date1);
     var oDate2 = new Date(date2);
     if(oDate1.getTime() > oDate2.getTime()){
-        onsole.log('第一个大');
-        window.location.href = "winner_list.html";
-        $$.ajax({
-            url:'',
-            type:"get",
-            dataType:"json",
-            success:function (result) {
-                console.log(result);
-                // if(){
-                //
-                // }else{
-                //
-                // }
-            }
+        console.log('第一个大');
+        $('.rule .fr').text('中奖名单');
+        $('#background .rule .fr').css('margin-right','14%');
+        $(".rule .fr").click(function () {
+            window.location.href = "winner_list.html";
         });
     } else {
         console.log('第二个大');
@@ -58,7 +49,7 @@ console.log(CurentTime(myDate.toLocaleDateString()));
 var newtime = CurentTime(myDate.toLocaleDateString());
 console.log(newtime);
 
-tab(newtime,'2018-06-30');
+tab(newtime,'2018-07-17');
 
 //判断页面打开终端
 window.onload = function browserRedirect() {
