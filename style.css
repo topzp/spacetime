@@ -6,6 +6,8 @@ html {
     -ms-text-size-adjust: 100%;
     /* 解决IOS默认滑动很卡的情况 */
     -webkit-overflow-scrolling : touch;
+    font-size:62.5%;
+    /*这里就是10/16x100%=62.5% 也就是默认10px的字号*/
 }
 
 /* 禁止缩放表单 */
