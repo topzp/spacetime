@@ -1,32 +1,30 @@
 @font-face {  font-family:PingFang-Medium ;  src: url("PingFang-Medium.ttf");  }
 .nav>li>a:focus, .nav>li>a:hover{background-color: #ffffff;border-bottom: solid 1px #3574FA;color: #3574FA;}
-.pro_name,.dapp_name{width:100%;height:5rem;background:rgba(255,255,255,1);font-size:1.75rem;font-weight: 800;
-    color:rgba(51,51,51,1);line-height: 5rem;border-bottom: solid 1px #E5E5E5;}
+.pro_name,.dapp_name{width:100%;height:4rem;background:rgba(255,255,255,1);font-size:1.75rem;font-weight: 800;
+    color:rgba(51,51,51,1);line-height: 4rem;border-bottom: solid 1px #E5E5E5;}
 .pro_name p,.dapp_name p{margin-left: 4%;}
-.nav{width: 98%;padding-left: 2%;height:5rem;background-color: #ffffff;z-index: 99}
-.nav li{height:5rem;line-height:5rem;float: left;width: 22%;margin-left: 1.5%;margin-right: 1.5%;text-align: center;}
+.nav{width: 98%;padding-left: 2%;height:4rem;background-color: #ffffff;z-index: 99}
+.nav li{height:4rem;line-height:4rem;float: left;width: 22%;margin-left: 1.5%;margin-right: 1.5%;text-align: center;}
 .nav li a{font-size:1.75rem;color: #999999;padding: 0;}
 .pro_jj .title,.pro_zc .title,.pro_team .title,.pro_bc .title,.dapp_jj .title,.dapp_com .title{font-size:1.25rem;color: #666666;
-    line-height: 4rem;width: 100%;background-color: #F8F8F8;}
+    line-height: 3rem;width: 100%;background-color: #F8F8F8;}
 .pro_jj .title p,.pro_zc .title p,.pro_team .title p,.pro_bc .title p,.dapp_jj .title p,.dapp_com .title p{padding-left: 4%;}
-.pro_jj .content,.dapp_jj .content{height: auto;margin-top: 2rem;}
-.pro_jj .content p,.dapp_jj .content p{font-size:1.5rem;line-height:2.88rem;width: 92%;margin-left: 4%;}
-video{width: 100%;background-color: #999999;margin-top: 2rem;}
-.network,.whitepaper,.dapp_network,.dapp_whitepaper,.dapp_update{margin-top: 2rem;font-size: 1.5rem;margin-left: 4%;
-    margin-bottom: 2rem;}
+.pro_jj .content,.dapp_jj .content{height: auto;margin-top: 1rem;}
+.pro_jj .content p,.dapp_jj .content p{font-size:1.5rem;line-height:2.25rem;width: 92%;margin-left: 4%;}
+video{width: 100%;background-color: #999999;margin-top: 1rem;}
+.network,.whitepaper,.dapp_network,.dapp_whitepaper,.dapp_update{margin-top: 1rem;font-size: 1.5rem;margin-left: 4%;
+    margin-bottom: 1rem;}
 .network a,.whitepaper a,.dapp_network a,.dapp_whitepaper a,.dapp_update a{color: #3574FA}
 .pro_zc .content div,.pro_bc .content div,.dapp_com .content div{border-bottom: solid 1px #E5E5E5;font-size: 1.5rem;}
-.pro_zc .content .ti,.pro_bc .content .ti,.dapp_com .content .ti{margin-left: 4%;line-height: 4rem}
+.pro_zc .content .ti,.pro_bc .content .ti,.dapp_com .content .ti{margin-left: 4%;line-height: 3rem}
 .pro_zc .content .st .con,.pro_bc .content .st .con,.dapp_com .content .st .con{margin-right: 4%;color: #999999}
-.pro_zc .content .sc .con,.pro_bc .content .sc .con,.dapp_com .content .sc .con{margin-bottom: 2rem;color: #999999;
+.pro_zc .content .sc .con,.pro_bc .content .sc .con,.dapp_com .content .sc .con{margin-bottom: 1rem;color: #999999;
     width: 90%;margin-left: 5%}
-.pro_team .content .ti{font-size: 1.5rem;padding-left: 4%;line-height: 4rem;}
+.pro_team .content .ti{font-size: 1.5rem;padding-left: 4%;line-height: 3rem;}
 .pro_team .content .team{border-bottom: solid 1px #E5E5E5;}
-.pro_team .content .team img{margin-bottom: 2rem;}
-.wetchat div{margin-left: 4%;height: 4rem;margin-bottom: 2rem;border-bottom: 0px;}
+.pro_team .content .team img{margin-bottom: 1rem;}
+.wetchat div{margin-left: 4%;height: 3rem;margin-bottom: 2rem;border-bottom: 0px;}
 .wetchat img{width: 4rem;height: 4rem;float: left;}
 .wetchat .con{padding-top: 1rem;color: #999999;margin-left: 5rem;}
 .last .title{height: 5rem;background-color: #F8F8F8;}
 .fixednav {position: fixed;top: 0px;left: 0px;width: 100%;z-index: 999;}
-
-/*Dapp*/
